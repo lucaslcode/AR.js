@@ -5087,6 +5087,7 @@ AFRAME.registerComponent('arjs-anchor', {
             }
 
             markerParameters.minConfidence = _this.data.minCondidence;
+            markerParameters.size = _this.data.size;
             markerParameters.smooth = _this.data.smooth;
             markerParameters.smoothCount = _this.data.smoothCount;
             markerParameters.smoothTolerance = _this.data.smoothTolerance;
